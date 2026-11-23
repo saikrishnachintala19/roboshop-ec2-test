@@ -5,9 +5,6 @@ terraform {                         # Starts Terraform's own settings.
       version = "6.70.0"            # Uses version 6.70.0 of that plugin.
     }                               # Ends the "aws" provider requirement.
   }                                 # Ends the required_providers block. 
-  backend "s3" {
-   
-  } 
 }                                 # Ends the terraform block.
 
 provider "aws" {                    # Starts configuration for the "aws" provider.
